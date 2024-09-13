@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(106, 106, 246);
+}
+.input{
+   background-color:whitesmoke;
+   width:300px;
+   margin: 125px;
+   position: absolute;
+   left:30%;
+   right: 70%;
+   border-radius: 15px;
+}
+ .input p{
+    font-weight: 800px;
+    color:black;
+   font-size: 20px;
+   margin-bottom: 5px;
+   margin:3px;
+  
+}
+
+ #inp{
+    width:200px;
+    height:20px;
+    border:black;
+    margin: 4px;
+    
+}
+.input button{
+    background-color:#494eea;
+    color: black;
+    outline: 0;
+    border: 0;
+    margin: 4px;
+}
+#photo{
+    width:200px;
+    border-radius: 5px;
+    max-height: 0;
+    transition: max-height 0.1s;
+}
+#photo img{
+    width:auto;
+    padding:10px;
+}
+#photo.show-img{
+    max-width: 100px;
+    margin: 10px auto;
+}
